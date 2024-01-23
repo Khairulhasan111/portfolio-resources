@@ -8,6 +8,9 @@ body {
 
 .header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* ======> nav related styles */
@@ -59,12 +62,33 @@ nav a {
 /* ====> Banner Section */
 
 .banner {
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .banner-img {
     width: 400px;
     height: 400px;
+}
+
+.banner-greetings {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
