@@ -1,0 +1,70 @@
+/* common shared styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =======> header styles */
+
+.header {
+    background: #FFF8F3;
+}
+
+/* ======> nav related styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    /* text-decoration: none; */
+    align-items: center;
+
+}
+
+nav li {
+    /* text-decoration: none; */
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.hire-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 15px;
+}
+
+
+/* ====> Banner Section */
+
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-img {
+    width: 400px;
+    height: 400px;
+}
