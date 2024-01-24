@@ -92,3 +92,53 @@ nav a {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+
+/* banner ends */
+
+/* main  */
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* About Section Starts*/
+
+.about-me {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+
+
+.about-title {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.about-description {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
